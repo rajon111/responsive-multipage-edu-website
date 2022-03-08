@@ -94,3 +94,43 @@ nav{
     position: fixed;
     top: 0;
 }
+.nav__conatiner{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button{
+    display: none;
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.nav__menu a{
+    font-size: 0.9rem;
+}
+.nav__menu a:hover{
+    color: var(--color-bg2);
+    transition: var(--transition);
+}
+/* =============HEADER=================== */
+header{
+     position: relative;
+     top:5rem;
+     overflow: hidden;
+     height: 70vh;
+     margin-left:5rem;
+}
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.header__left p{
+    margin: 1rem 0 2.4rem;
+}
